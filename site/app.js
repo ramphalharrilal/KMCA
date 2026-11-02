@@ -18,3 +18,19 @@ document.querySelector('#document-search')?.addEventListener('input',renderDocum
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));renderDocuments();}));
 document.querySelector('[data-document="payment"]')?.addEventListener('click',()=>{filter='all';document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter==='all')));document.querySelector('#document-search').value='payment';renderDocuments();});
 if(document.querySelector('#document-list'))renderDocuments();
+document.querySelector('#contact-form')?.addEventListener('submit', event => {
+  event.preventDefault();
+  const form = event.currentTarget;
+  if (!form.reportValidity()) return;
+  const data = new FormData(form);
+  const name = String(data.get('name')).trim();
+  const message = String(data.get('message')).trim();
+  if (!name || !message) {
+    document.querySelector('#contact-status').textContent = 'Please enter your name and a message.';
+    (!name ? form.elements.name : form.elements.message).focus();
+    return;
+  }
+  const body = `Name: ${name}\nReply email: ${String(data.get('email')).trim()}\nProperty address: ${String(data.get('address')).trim() || 'Not provided'}\n\n${message}`;
+  window.location.href = `mailto:thenewkenswickmeadows@gmail.com?subject=${encodeURIComponent('KMCA resident enquiry')}&body=${encodeURIComponent(body)}`;
+  document.querySelector('#contact-status').textContent = 'Your email is prepared. Please send it from your email app. If no app opened, copy your message and email thenewkenswickmeadows@gmail.com. Nothing has been sent by this website.';
+});
