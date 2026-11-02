@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-11-02",
+  "pages": [
+    "https://kenswickmeadows.org/",
+    "https://kenswickmeadows.org/about/",
+    "https://kenswickmeadows.org/19-2/",
+    "https://kenswickmeadows.org/architectural-review-form/",
+    "https://kenswickmeadows.org/community-updates/",
+    "https://kenswickmeadows.org/meeting-minutes/",
+    "https://kenswickmeadows.org/newsletter/",
+    "https://kenswickmeadows.org/pay-assessment/"
+  ],
+  "documents": [
+    {
+      "file": "wp-content__uploads__2026__02__kmca-violations-ccr-fines_revised-2026.docx.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2026/02/kmca-violations-ccr-fines_revised-2026.docx.pdf",
+      "sha256": "8c046d2d92c11c9bfba0f4f623b8fd5a5605c99c62bf4275555b9834c485aa1e"
+    },
+    {
+      "file": "wp-content__uploads__2025__09__supplemental-notice-of-dedicatory-instruments_removed.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2025/09/supplemental-notice-of-dedicatory-instruments_removed.pdf",
+      "sha256": "f4a0ac768d0a7b15c4022181db02fa8ccc9241c37721a674754b919704e0da22"
+    },
+    {
+      "file": "wp-content__uploads__2026__09__kmca-covenants.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2026/09/kmca-covenants.pdf",
+      "sha256": "a5231c12d2df3cf06547c5426a2ae55580950e48ed8464dbd6d28b213705d5a8"
+    },
+    {
+      "file": "wp-content__uploads__2026__02__paymentagreementform.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2026/02/paymentagreementform.pdf",
+      "sha256": "7c4dc9799c17fa4159fbc660f32b3b6afd007cbd3c0ed75aac6455083111668e"
+    },
+    {
+      "file": "wp-content__uploads__2025__08__kmca-architectural-review-form-application-newest-use.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2025/08/kmca-architectural-review-form-application-newest-use.pdf",
+      "sha256": "599b2390363551c6ead72e5f8f0b4627b35149aa4d17ab3e558663f8da560c68"
+    },
+    {
+      "file": "wp-content__uploads__2026__05__kenswick-meadows-community-guidelines-to-owner-prop-management-revised-website.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2026/05/kenswick-meadows-community-guidelines-to-owner-prop-management-revised-website.pdf",
+      "sha256": "b1e66b0941328b1e1ef35d01f773b089aa93baa710880e4526077fbf92c4c274"
+    },
+    {
+      "file": "wp-content__uploads__2025__09__kmca-violations-ccr-fines_revised-2026.docx.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2025/09/kmca-violations-ccr-fines_revised-2026.docx.pdf",
+      "sha256": "8c046d2d92c11c9bfba0f4f623b8fd5a5605c99c62bf4275555b9834c485aa1e"
+    },
+    {
+      "file": "wp-content__uploads__2025__09__kenswick-meadows-community-guidelines-to-owner-prop-management-revised-website.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2025/09/kenswick-meadows-community-guidelines-to-owner-prop-management-revised-website.pdf",
+      "sha256": "b1e66b0941328b1e1ef35d01f773b089aa93baa710880e4526077fbf92c4c274"
+    },
+    {
+      "file": "wp-content__uploads__2026__05__kenswick-meadows-community-assoc.-newsletter.pdf",
+      "url": "https://kenswickmeadows.org/wp-content/uploads/2026/05/kenswick-meadows-community-assoc.-newsletter.pdf",
+      "sha256": "d5294a5890f0c77a64f81310eff94370960f12de1ff94f4b83e7b0075e8d55ed"
+    }
+  ]
+}
