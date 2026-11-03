@@ -1,7 +1,7 @@
-# Verification
+# Verification — redesigned site
 
-Five static-site checks pass: local HTML links/assets, nine preserved PDF signatures, disabled PayPal placeholder, unique IDs/navigation anchors, and dynamic document links.
+Five automated checks pass: recursive links and fragments across all pages and legacy routes; all nine PDF signatures; disabled PayPal portal; homepage anchors and unique IDs; dynamic document paths.
 
-The earlier receipt service and its tests have been removed at the association’s request. PayPal’s own payment receipt will be used when checkout is integrated. No PayPal checkout or receipt-delivery test has been performed yet.
+Browser checks: mobile menu opens and navigates; document search for payment returns exactly one correct PDF; contact fields have labels and native required-field validation prevents empty submission. Contact page checked at 390px and 320px viewport settings without horizontal overflow. Contact delivery itself is not tested because this version only prepares an email, and no test message was sent.
 
-Previously inspected layouts at phone, tablet and desktop widths, including mobile navigation and document search. Contact form prepares an email in the resident’s email app; it does not send directly. Existing domain DNS has not been changed.
+PayPal is disabled; no checkout or receipt-delivery test has been performed. Custom receipt code and tests were removed at the user's request. Existing domain DNS has not been changed. See CONTENT-AUDIT.md for content coverage and functional differences.

@@ -1,6 +1,6 @@
 # Kenswick Meadows Community Association
 
-Static resident website for GitHub Pages. The frontend requires no build or package installation. Fresh teal, mint, and coral, an original vector neighborhood illustration (decorative, not a photograph of the development), responsive navigation, searchable documents, and a clearly inactive PayPal portal.
+Static resident website for GitHub Pages. The frontend requires no build or package installation. A quieter multipage design with forest green, sage and warm white, responsive navigation, searchable documents, and a clearly inactive PayPal portal. See CONTENT-AUDIT.md for preserved content and functional differences.
 
 ## Website
 
